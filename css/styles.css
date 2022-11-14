@@ -159,7 +159,11 @@ img{
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer .container{
     display: flex;
+    align-items: baseline;
 }
 
 .footer .logo {
@@ -209,7 +213,7 @@ img{
 
 .contacts{
     margin-right: 70px;
-    width: 246px;
+    /* width: 246px; */
     padding-right: 0;
 }
 
@@ -338,9 +342,13 @@ img{
     flex-wrap: wrap;
 }
 
-.quality-item{
+/* .quality-item{
     width: 270px;
-}
+    display: block;
+    content: "";
+    height: 80px;
+    background-image: ;
+} */
 
 .quality-list .quality-item:not(:last-child) {
     margin-right: 30px;
