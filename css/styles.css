@@ -120,11 +120,18 @@ img{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: block;
+    /* display: block; */
+    display: flex;
+    gap: 10px;
+    color: #757575;
 }
 
 .site-nav .link {
     color: var(--title-color);
+}
+
+.mail-tel-icon{
+    fill: currentColor;
 }
 
 /* при наведенні змінюється колір + фокус */
@@ -342,13 +349,18 @@ img{
     flex-wrap: wrap;
 }
 
-/* .quality-item{
+.quality-item{
     width: 270px;
-    display: block;
-    content: "";
-    height: 80px;
-    background-image: ;
-} */
+}
+
+.quality-icon{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .quality-list .quality-item:not(:last-child) {
     margin-right: 30px;
@@ -360,11 +372,13 @@ img{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 .quality-item-subtitle{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 10px;
 }
 
 /* section 3-4 */
@@ -396,8 +410,6 @@ img{
 /* section 4 */
 .team {
     background-color: #F5F4FA;
-    /* padding-top: 94px;
-    padding-bottom: 94px; */
 }
 
 .team-list{
