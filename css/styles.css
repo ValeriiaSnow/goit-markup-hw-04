@@ -139,7 +139,6 @@ img{
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 16px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -277,51 +276,18 @@ img{
     fill: #FFFFFF;
 }
 
-.join-link:hover{
+.join-link:hover,
+.join-link:focus{
     background-color: #2196F3;
 }
 
-.join-link:hover .join-icon{
+.join-link:hover .join-icon,
+.join-link:focus .join-icon{
     fill: #FFFFFF;
 } 
-/* 
-ul   .join-list{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-li    .join-item{
-    width: 44px;
-    height: 44px;
-}
-
-a     .join-link{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
-}
-
-svg     .join-icon{
-    fill: #FFFFFF;
-}
-
-a     .join-link:hover{
-    background-color: #2196F3;
-}
-
-a     .join-link:hover  svg    .join-icon{
-    fill: #FFFFFF;
-}  */
 /* 3 ------------------------------ MAIN = Studio */
-/* section 1 */
+/* section 1  hero */
 .hero {
     font-weight: 900;
     font-size: 44px;
@@ -341,8 +307,7 @@ a     .join-link:hover  svg    .join-icon{
     url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1600px;;
-    /* height: 600px; */
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
@@ -387,7 +352,7 @@ a     .join-link:hover  svg    .join-icon{
     border: none;
 }
 
-/* section 2 */
+/* section 2 quality*/
 .quality-list{
     display: flex;
     flex-wrap: wrap;
@@ -400,7 +365,7 @@ a     .join-link:hover  svg    .join-icon{
 .quality-icon{
     background-color: #F5F4FA;
     width: 270px;
-    height: 120px;
+    padding: 25px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -425,7 +390,7 @@ a     .join-link:hover  svg    .join-icon{
     margin-top: 10px;
 }
 
-/* section 3-4 */
+/* section 3 what-do - 4  team*/
 .team-title,
 .what-do-title {
     font-weight: 700;
@@ -440,7 +405,7 @@ a     .join-link:hover  svg    .join-icon{
     color: var(--title-color);
 }
 
-/* section 3 */
+/* section 3 what-do */
 .what-do {
     padding-top: 0;
 }
@@ -451,7 +416,7 @@ a     .join-link:hover  svg    .join-icon{
     gap: 30px;
 }
 
-/* section 4 */
+/* section 4 team */
 .team {
     background-color: #F5F4FA;
 }
@@ -517,15 +482,17 @@ a     .join-link:hover  svg    .join-icon{
     fill: #AFB1B8;
 }
 
-.team-social-link:hover{
+.team-social-link:hover,
+.team-social-link:focus{
     background-color: #2196F3;
 }
 
-.team-social-link:hover .team-social-icon{
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon{
     fill: #FFFFFF;
 } 
 
-/* section 5 */
+/* section 5 clients*/
 
 .clients-title{
     font-weight: 700;
@@ -550,7 +517,6 @@ a     .join-link:hover  svg    .join-icon{
 
 .clients-item-link{
     box-sizing: border-box;
-    /* padding: 16px 32px; */
 }
 
 .clients-item-link{
@@ -569,37 +535,10 @@ a     .join-link:hover  svg    .join-icon{
     border-color: #2196F3;
 }
 
-.clients-item-link:hover .clients-item-icon{
+.clients-item-link:hover .clients-item-icon,
+.clients-item-link:focus .clients-item-icon{
     fill: #2196F3;
 }
-
-/* .clients-item-icon{
-    fill: #AFB1B8;
-} */
-/* 
-.clients-item-link{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
-.clients-item-icon{
-    fill: #AFB1B8;
-}
-
-.team-social-link:hover{
-    background-color: #2196F3;
-}
-
-.team-social-link:hover .team-social-icon{
-    fill: #FFFFFF;
-}  */
-
-
 
 /* 3 ------------------------------ MAIN = Portfolio */
 
@@ -647,7 +586,7 @@ a     .join-link:hover  svg    .join-icon{
 .type-work-photo-list{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 34px;
+    margin-top: 50px;
     gap: 30px;
 }
 
